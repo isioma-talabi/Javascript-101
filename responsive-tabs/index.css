@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url(../assets/Geist-Font/ttf/Geist-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: "Geist", sans-serif;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.first__container {
+  background-color: #f4f4f5;
+  height: 60px;
+  padding: 0px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.second__container {
+  border: 2px solid #f4f4f5;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
+
+#account,
+#password {
+  font-family: "Geist", sans-serif;
+  font-size: 1rem;
+  width: 230px;
+  height: 40px;
+  background-color: white;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #71717a;
+  font-size: 1rem;
+}
+
+.input-el {
+  height: 40px;
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #dadadb;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button {
+    font-family: "Geist", sans-serif;
+    height: 40px;
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: #dadadb;
+    font-weight: 900;
+    border-radius: 6px;
+}
+
+/* Styling for landing display */
+
+#password_content {
+    display: none;
+}
+
+#password {
+    background-color: #f4f4f5;
+}
